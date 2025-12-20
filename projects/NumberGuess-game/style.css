@@ -12,6 +12,7 @@ body{
     align-items: center;
     background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
     color: white;
+    padding:10px;
 }
 
 .input-card{
@@ -124,4 +125,5 @@ button:disabled{
 .success{
     animation: successPop 0.5s ease;
     border: 2px solid #22c55e;
+
 }
