@@ -64,6 +64,7 @@ input:focus{
     padding-top: 50px;
     color: white;
     height:100%;
+    position: relative;
 }
 
 .movie-card::before{
@@ -117,3 +118,4 @@ input:focus{
     }
 
 }
+
