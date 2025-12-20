@@ -43,8 +43,6 @@ async function searchMovie() {
             <p>📃 Plot: ${data.Plot}</p>
             </div>
             `;
-        document.body.style.backgroundImage = `url(${data.Poster !== "N/A" ? data.Poster : ""})`;
-        document.body.style.backgroundSize = "cover";
 
             localStorage.setItem("lastMovie", movieName);
     }catch(error){
@@ -52,4 +50,5 @@ async function searchMovie() {
     }
     
     
+
 }
